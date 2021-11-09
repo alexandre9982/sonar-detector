@@ -1,1 +1,31 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="*W{yla~hPvn(lN1:F{9S">distance</variable></variables></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=")cm-%GRl8Ik=9fyl$NsA">distance</variable></variables><block type="device_forever" id="EDM$H^F|A/mD8%(,-m@H" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="4_=uw:}J^r)(^-qY+`,R"><field name="VAR" id=")cm-%GRl8Ik=9fyl$NsA">distance</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="[11x_{4B?OO[o-ER!g()"><field name="trig">DigitalPin.P0</field><field name="echo">DigitalPin.P1</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="controls_if" id="@pbk8PCj580qrDmH`cJZ"><mutation elseif="4"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="-4h=oRkqb|0if753BPeR"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="BjF_KcyRt,#{UzBh7EO2"><field name="VAR" id=")cm-%GRl8Ik=9fyl$NsA">distance</field></block></value><value name="B"><shadow type="math_number" id="IG8UoqN7~t^),7#0XT#9"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}X|R`@.!x=xpUV`#:8Xw"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="boB}+2J(`?{~diF%r|*k"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="K6Wo[@Zfi?7an#Ql8Fx$"><field name="VAR" id=")cm-%GRl8Ik=9fyl$NsA">distance</field></block></value><value name="B"><shadow type="math_number" id="O7?:kZY-[qj!2oP@FcT}"><field name="NUM">10</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="$^;t4g`_]k3cP9v;#yEq"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Lmz/G/K^z3Fb`9Iy)+=l"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="pH#_+,?Km?1wE^e:9ZmE"><field name="VAR" id=")cm-%GRl8Ik=9fyl$NsA">distance</field></block></value><value name="B"><shadow type="math_number" id="Tl2E46ogCopI`j$$MI#V"><field name="NUM">15</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="bcUxQEU?cf+ys!lM5aiM"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF3"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="XR:`!MBxjM5_N$Z$-q9f"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Rv$clwpK_EI_#=v}($M3"><field name="VAR" id=")cm-%GRl8Ik=9fyl$NsA">distance</field></block></value><value name="B"><shadow type="math_number" id="i@6Ow2AJ)#(2*Z6#IJ_/"><field name="NUM">20</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="An+^Q!R=(kK7eRf|.Bb{"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . . . . .
+        `</field></block></statement><value name="IF4"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="?D`Z6^R{]#=qUj)a?3mL"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="LA!qYgj]YU!+wdXnj,s-"><field name="VAR" id=")cm-%GRl8Ik=9fyl$NsA">distance</field></block></value><value name="B"><shadow type="math_number" id="g`(P9Cu~LSBy}_:Y@HtR"><field name="NUM">25</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="82KRG,kqD]e7i^U3sL~b"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
